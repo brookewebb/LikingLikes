@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Mochiy+Pop+P+One&family=Permanent+Marker&family=Russo+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* utility */
+
+/* /utility */
+
+/* container */
+
+.container{
+    min-height: 100px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+/* nav */
+
+
+
+nav{
+    min-height: 30px;
+    padding: 20px 30px;
+    background-color: black;
+}
+
+nav h1{
+    color: white;
+    font-size: 3em;
+    font-family: 'Permanent Marker', cursive;
+}
+
+
+/* Feed */
+
+.feed{
+    font-size: 2em;
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    padding: 30px 0;
+}
+
+/* main content */
+
+.main-content{
+    display: flex;
+    gap: 20px;
+
+}
+
+ /* main content - left column */ 
+
+.my-profile{
+    min-height: 30px;
+    flex: 1;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+    font-size: large;
+    border: 5px solid black;
+    height: 400px;
+}
+
+.my-profile img{
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 10px solid #fd4163;
+
+}
+
+.my-name{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: xx-large;
+}
+
+
+/* main content - right column */
+
+.likes{
+    min-height: 30px;
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.comment{
+    border: 5px solid black;
+    min-height: 30px;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    flex: 1;
+}
+
+.name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: xx-large;
+}
+
+.like-button{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    font-size: x-large;
+}
+
+button{
+    background-color:yellow;
+    width: 100px;
+    height: 50px;
+    font-size: x-large;
+    border: 5px solid black;
+    box-shadow: 5px 5px black;
+}
+
+.comment p{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 2em;
+
+}
